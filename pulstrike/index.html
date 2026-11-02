@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PULSTRIKE</title>
+  <meta name="description" content="PULSTRIKE is a hands-only rhythm game for Meta Quest, played on your real desk or in the air. By BanabaStudios.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #06070D;
+      --surface: #0B0E1A;
+      --text: #EFFFFC;
+      --text-2: #A8BAC3;
+      --muted: #708E9C;
+      --left: #FFE600;
+      --right: #19F0D8;
+      --line: rgba(239, 255, 252, 0.1);
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Manrope, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    a { color: var(--right); }
+    .hero {
+      display: block;
+      width: 100%;
+      aspect-ratio: 10 / 3;
+      object-fit: cover;
+      border-bottom: 1px solid var(--line);
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+    h1 { font-size: 34px; font-weight: 800; letter-spacing: 0.02em; margin: 0 0 4px; }
+    h1 .p { color: var(--left); }
+    h1 .s { color: var(--right); }
+    .tagline { color: var(--text-2); font-size: 19px; margin: 0 0 28px; }
+    h2 { font-size: 15px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 40px 0 12px; }
+    ul.features { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+    ul.features li {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    ul.features b { color: var(--text); }
+    ul.features li:nth-child(odd) b { color: var(--left); }
+    ul.features li:nth-child(even) b { color: var(--right); }
+    .needs { color: var(--text-2); }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      padding: 20px 16px 32px;
+      text-align: center;
+    }
+    footer a { color: var(--text-2); }
+    @media (max-width: 520px) {
+      h1 { font-size: 28px; }
+      .tagline { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <img class="hero" src="hero.jpg" alt="PULSTRIKE: two hands tapping glowing notes on a desk">
+  <main>
+    <h1><span class="p">PUL</span><span class="s">STRIKE</span></h1>
+    <p class="tagline">Your desk is the drum. Tap glowing notes on the beat with your bare hands.</p>
+
+    <p>PULSTRIKE is a rhythm game for Meta Quest played with your hands, no controllers. Sit at a desk or table, rest your palms on it for a moment, and the game fits its play area to the surface. Notes appear on it with a ring closing in on each one: tap the note as the ring lands, on the beat. Every tap lands on something solid. No table? Play in the air instead, and tilt the play area towards you.</p>
+
+    <h2>Features</h2>
+    <ul class="features">
+      <li><b>Hands only.</b> Tap with your index finger, middle finger or thumb. Yellow notes are for your left hand, teal for your right, white for either.</li>
+      <li><b>Sliders and drums.</b> Follow orbs across the table with a fingertip, and pound the desk with your fist on the drum notes.</li>
+      <li><b>Original music.</b> Eight songs made for the game, each with Easy, Normal and Hard charts, unlocked as you clear them.</li>
+      <li><b>Overload.</b> Build your combo and your hands charge up; at 100, 200 and 300 the table erupts and every hit scores more.</li>
+      <li><b>Learn in a minute.</b> A short tutorial teaches each kind of note, freezing time to show you the moment to tap.</li>
+      <li><b>Mixed reality.</b> Play with your real room around you, or switch to a calm dark space.</li>
+      <li><b>Made for sitting down.</b> Everything is within reach of your chair; a song takes two to three minutes.</li>
+    </ul>
+
+    <h2>What you need</h2>
+    <p class="needs">A Meta Quest 2, Quest 3 or Quest 3S with hand tracking on, and a clear desk or table about 60 × 35 cm, or some room in front of you to play in the air.</p>
+
+    <h2>Contact</h2>
+    <p>PULSTRIKE is made by BanabaStudios. Questions or feedback: <a href="mailto:joshvindomingo@gmail.com">joshvindomingo@gmail.com</a>.</p>
+  </main>
+  <footer>
+    © 2026 BanabaStudios · <a href="privacy/">Privacy policy</a>
+  </footer>
+</body>
+</html>
